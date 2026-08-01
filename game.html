@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Click-and-Count</title>
+
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎯 Click-and-Count</h1>
+
+        <p id="score">Score: 0</p>
+        <p id="highScore">High Score: 0</p>
+        <p id="timer">Time: 30</p>
+    </header>
+
+
+    <main>
+
+        <button id="startBtn">
+            Start Game
+        </button>
+
+
+        <div id="gameArea"></div>
+
+
+        <div id="answerArea" style="display:none;">
+
+            <input 
+            type="number" 
+            id="answer"
+            placeholder="How many?">
+
+
+            <button id="checkBtn">
+                Check
+            </button>
+
+        </div>
+
+
+    </main>
+    <footer>
+    <p>🎮 Click-and-Count</p>
+    <p>Created by Enes</p>
+    <p>© 2026 Enes</p>
+</footer>
+
+<script src="game.js"></script>
+
+</body>
+
+</html>
